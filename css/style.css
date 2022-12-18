@@ -2324,7 +2324,8 @@ body::after {
 }
 
 .list-unstyled {
-  color: rgb(204, 204, 204);
+  z-index: 99;
+  color: #fff;
 }
 
 .news-begin {
@@ -2514,6 +2515,92 @@ body::after {
   text-transform: uppercase;
   display: inline-block;
 }
+
+.bgc-black-with-lighting {
+  /* background: #1e1e22; */
+}
+.bgc-black-with-lighting:after, .bgc-black-with-lighting:before {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  z-index: 0;
+  content: '';
+  border-radius: 50%;
+  background: rgba(0, 71, 255, 0.7);
+  -webkit-animation: zoomInOut 5s infinite;
+  animation: zoomInOut 5s infinite; }
+.bgc-black-with-lighting:after {
+  display: none;
+  right: -15%;
+  bottom: -35%;
+  -webkit-filter: blur(200px);
+  filter: blur(200px); }
+.bgc-black-with-lighting:before {  
+  display: none;
+  background: rgba(0, 71, 255, 0.9);
+  left: 0%;
+  top: -30%;
+  -webkit-filter: blur(250px);
+  filter: blur(250px);
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s; }
+
+.breadcrumb .right-img {
+z-index: 99;
+}
+
+.seobrothers-breadcrumb-wrapper {
+  z-index: 5;
+}
+
+
+@media (max-width: 767px) {
+  .bgc-black-with-lighting:after, .bgc-black-with-lighting:before {
+    display: inherit;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    z-index: 0;
+    content: '';
+    border-radius: 50%;
+    background: rgba(0, 71, 255, 0.9);
+    -webkit-animation: zoomInOut 4s infinite;
+    animation: zoomInOut 4s infinite; }
+  .bgc-black-with-lighting:after {
+    right: 0%;
+    bottom: 0%;
+    -webkit-filter: blur(90px);
+    filter: blur(90px); }
+  .bgc-black-with-lighting:before {    
+    /* display: none; */
+    width: 220px;
+    height: 220px;
+    background: rgb(47, 0, 255);
+    right: -30%;
+    top: 15%;
+    -webkit-filter: blur(90px);
+    filter: blur(90px);
+    -webkit-animation-delay: 2.0s;
+    animation-delay: 2.0s; }
+
+    .seobrothers-breadcrumb-wrapper {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    
+    .seobrothers-blog-area {
+      padding-top: 80px;
+    }
+    .list-unstyled span {
+      opacity: 1;
+      font-size: 17px;
+} 
+}
+
+.seobrothers-breadcrumb ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
 
 /* career */
 

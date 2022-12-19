@@ -1958,7 +1958,7 @@ body::after {
   overflow: visible;
   display: block;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 32px;
 }
 .blog__wrapper--single .post-details-content p:not(:last-child) {
   margin-bottom: 25px;

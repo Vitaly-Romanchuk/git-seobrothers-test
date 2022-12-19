@@ -659,7 +659,7 @@ body .btn-one:hover {
 }
 .blog-meta .blog-title h5 {
   font-family: "inter-bold";
-  font-size: 22px;
+  font-size: 21px;
   color: var(--heading);
   line-height: 1.44em;
   letter-spacing: -0.2px;
@@ -2306,7 +2306,7 @@ body::after {
 }
 @media (max-width: 767px) {
   .breadcrumb .page-title {
-    font-size: 39px;
+    font-size: 36px;
   }
 }
 

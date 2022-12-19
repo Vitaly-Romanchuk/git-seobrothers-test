@@ -2124,7 +2124,7 @@ body::after {
 }
 .post-author__content p{
   font-size: 18px;
-  line-height: 36px;
+  line-height: 32px;
 }
 @media (max-width: 475px) {
   .post-author__wrapper {

@@ -1960,6 +1960,15 @@ body::after {
   font-size: 18px;
   line-height: 32px;
 }
+
+@media (max-width: 1199px) {
+  .blog__wrapper--single .post-details-content p {
+    font-size: 17px;
+  line-height: 31px;
+  }
+}
+
+
 .blog__wrapper--single .post-details-content p:not(:last-child) {
   margin-bottom: 25px;
 }
@@ -2126,6 +2135,15 @@ body::after {
   font-size: 18px;
   line-height: 32px;
 }
+
+@media (max-width: 767px) {
+  .post-author__content p {
+    font-size: 17px;
+    line-height: 31px;
+  }
+}
+
+
 @media (max-width: 475px) {
   .post-author__wrapper {
     flex-wrap: wrap;

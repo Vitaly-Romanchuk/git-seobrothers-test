@@ -1106,6 +1106,7 @@ Career Area
 
 .career-item .career-content h3 a {
   color: var(--heading);
+  font-family: inter-bold;
 }
 
 .career-item .career-content h3 a:hover {

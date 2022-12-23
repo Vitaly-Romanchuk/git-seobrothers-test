@@ -1162,11 +1162,12 @@ Career Area
 
 .career-item .career-content h3 {
   font-family: inter-semibold;
-  font-size: 22px;  
+  font-size: 24px;  
   margin-bottom: 16.5px;
 }
 
 .career-item .career-content h3 a {
+  font-size: 22px;
   color: var(--heading);
 }
 
@@ -1184,12 +1185,25 @@ Career Area
 }
 
 .career-item .career-content .list li {
+  font-size: 19px;
   font-family: "inter-semibold";
   list-style-type: none;
   display: inline-block;
   margin-right: 15px;
   color: var(--heading);  
 }
+
+@media (max-width: 767px) {
+  .career-item .career-content .list li {
+    font-size: 16px !important;
+    font-family: "inter-semibold";
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+    color: var(--heading);  
+  }
+}
+
 
 .career-item .career-content .list li:last-child {
   margin-right: 0;

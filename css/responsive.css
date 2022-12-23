@@ -452,7 +452,8 @@
     padding: 20px;
   }
   .career-item .career-content h3 {
-    font-size: 18px;
+    font-size: 20px;
+    margin-top: 15px;
   }
   .career-item .career-content .list li {
     margin-bottom: 10px;
@@ -462,7 +463,8 @@
   }
   .career-item .career-btn {
     text-align: start !important;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
   .video-area {
     margin-bottom: 0;

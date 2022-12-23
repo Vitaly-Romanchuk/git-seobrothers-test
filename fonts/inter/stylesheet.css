@@ -1,12 +1,4 @@
 @font-face {
-  font-family: "inter-extrabold";
-  src: url("Inter-ExtraBold.woff2") format("woff2"),
-    url("Inter-ExtraBold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "inter-bold";
   src: url("Inter-Bold.woff2") format("woff2"),
     url("Inter-Bold.woff") format("woff");
@@ -18,6 +10,14 @@
   font-family: "inter-regular";
   src: url("Inter-Regular.woff2") format("woff2"),
     url("Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "inter-semibold";
+  src: url("Inter-SemiBold.woff2") format("woff2"),
+    url("Inter-SemiBold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

@@ -66,7 +66,7 @@
   background: var(--prime-one);
 }
 .navbar .navbar-nav .nav-link {
-  font-family: "inter-bold";
+  font-family: "inter-semibold";
   font-size: 18px;
   line-height: initial;
   color: #fff;

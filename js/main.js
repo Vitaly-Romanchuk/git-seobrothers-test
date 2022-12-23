@@ -17,6 +17,38 @@
 
   });
 
+
+  (function (i) {
+    "use strict";  
+      i(window).on("load", function () {
+          new Swiper(".team-group-carousel .swiper-container", {
+            slidesPerView: 2,
+            spaceBetween: 80,
+            speed: 1e3,
+            loop: !0,
+            preloadImages: !1,
+            lazy: !0,
+            breakpoints: {
+              0: { slidesPerView: 1, spaceBetween: 30 },
+              640: { slidesPerView: 1, spaceBetween: 30 },
+              767: { slidesPerView: 2, spaceBetween: 30 },
+              991: { slidesPerView: 2, spaceBetween: 60 },
+            },
+            on: {
+              touchStart: function () {
+                i(".team-group-image img").addClass("hold");
+              },
+              touchEnd: function () {
+                i(".team-group-image img").removeClass("hold");
+              },
+              slideChange: function () {
+                i(".team-group-image img").removeClass("hold");
+              },
+            },
+          });
+      });
+  })(jQuery);
+
     // ------------------------ Slick Slider
 
   function slickInit() {
@@ -83,11 +115,6 @@
         });
       });
     }
-
-
-
-
-
   }
 
   // ------------------------ Навигация скролл: Navigation Scroll
@@ -115,6 +142,10 @@
     $("html, body").animate({ scrollTop: 0 });
     return false;
   });
+  
+
+
+
 
   // -------------------- Remove Placeholder When Focus Or Click
   $("input,textarea").each(function () {
@@ -168,7 +199,39 @@ let SwiperBottom = new Swiper('.develop-slider .swiper-container', {
           slidesPerView: 6,
       }
   }
-  });
+  }); 
+
+
+  /*-----------------------------
+      workspace
+    -----------------------------*/
+
+    // var swiper = new Swiper('.workspace_swiper', {
+    //   slidesPerView: 4,
+    //   spaceBetween: 30,
+    //   navigation: {
+    //     nextEl: '.swiper-button-next',
+    //     prevEl: '.swiper-button-prev',
+    //   },
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //     clickable: true,
+    //   },
+    //   breakpoints: {
+    //     240: {
+    //       slidesPerView: 1,
+    //       spaceBetween: 0,
+    //     },
+    //     768: {
+    //       slidesPerView: 2,
+    //       spaceBetween: 20,
+    //     },
+    //     1024: {
+    //       slidesPerView: 3,
+    //       spaceBetween: 20,
+    //     },
+    //   }
+    // });
 
     // ------------------------------- AOS Animation
     if ($("[data-aos]").length) {

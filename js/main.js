@@ -112,6 +112,33 @@
           variableWidth: variableWidthVar,
           // slidesToScroll: slidesPerView,
 
+          responsive: [
+            {
+              breakpoint: 1600,
+              settings: {
+                slidesToShow: lgPoint,
+              },
+            },
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: mdPoint,
+              },
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: smPoint,
+              },
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: xsPoing,
+              },
+            },
+          ],
+
         });
       });
     }

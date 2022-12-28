@@ -3470,6 +3470,7 @@ font-family: inter-semibold;
 
 @media (max-width: 991px) {
   .banner-app-work {
+    background: url(../images/work-page/0-mobile.png);
     height: 100%;
     background-position-x: 80%;
   }
@@ -3505,11 +3506,6 @@ font-family: inter-semibold;
     font-size: 70px;
   }
 }
-@media (max-width: 767px) {
-  .banner-app-work .banner_title h1 {
-    font-size: 50px;
-  }
-}
 .banner-app-work .banner_title p {
   color: #ffffff;
   opacity: 0.8;
@@ -3540,3 +3536,48 @@ font-family: inter-semibold;
 }
 
 
+.bk-black1 {
+  /* background-color: #F3F3F3; */
+}
+
+
+
+@media (max-width: 767px) {
+  .banner-app-work {
+    background: url(../images/work-page/0-mobile.jpg);
+    height: 100%;
+    background-position-x: 75%;
+  }
+  .banner-workpage {
+    padding-top: 12rem;
+    padding-bottom: 7rem;  
+  }
+  .banner-app-work .banner_title h1 {    
+    font-size: 48px;
+    margin-bottom: 25px;
+  }
+  .country-logo-page {   
+    margin: 8px 0 16px 0;
+    vertical-align: middle;
+  }
+  .country-logo-page a {
+    width: 76%;
+    /* height: 50px; */
+    border-radius: 8px;
+    background: none;
+    padding: 2px 2px;
+    box-shadow: 0px 7px 14px rgba(28, 28, 28, 1);
+    transition: all 0.3s ease-in-out;
+  }
+  .country-logo-page a:hover {
+    transform: translateY(-5px);
+  }
+  .banner-app-work .banner_title p {
+    color: #ffffff;    
+    opacity: 0.9;
+    width: 100%;
+  }
+  .bk-slider_arrows.bk-style1 .slick-arrow {
+    top: 40%;
+  }
+}

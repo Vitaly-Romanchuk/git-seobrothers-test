@@ -1416,6 +1416,7 @@ Video Area CSS
 
 /* banner mighty */
 .bk-slider {
+  overflow-x: hidden;
   position: relative;
 }
 

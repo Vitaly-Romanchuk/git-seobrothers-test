@@ -14,6 +14,8 @@
 
     slickInit();
     AOS.init();
+    AOS.init({disable: 'mobile'});
+
 
   });
 

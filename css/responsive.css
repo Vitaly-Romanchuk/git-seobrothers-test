@@ -384,6 +384,16 @@
 @media (max-width: 767px) {
 
 
+  .mighty-bookmakers .bk-card::before {
+    box-shadow: none;
+  }
+
+  .mighty-bookmakers .slick-center .bk-card {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+
+
 
 
   .seoprojects-banner-create.slide .content-slide {

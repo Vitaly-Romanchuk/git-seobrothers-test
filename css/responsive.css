@@ -16,9 +16,6 @@
     right: 3%;
     width: 42vw;
   }
-  .ceo-seobroth {
-		overflow: hidden;
-	}
   .mighty-bookmakers .bk-card .bk-card_btn_1 {
     font-size: 12px;
   }
@@ -224,38 +221,7 @@
     /* right: -9.5%; */
     right: -5%;
   }
-	.ceo-seobroth {
-		padding-top: 85px;
-	}
-	.ceo-seobroth .section_img .img_box .one {
-		width: 45%;
-	}
-	.ceo-seobroth .section_img .img_box .two {
-		width: 50%;
-	}
-	.ceo-seobroth .section_img .img_box {
-		left: 0;
-	}
-	.ceo-seobroth .section_img .icons img.two {
-		top: 20px;
-	}
-	.ceo-seobroth .section_img .icons img.three {
-		right: 265px;
-	}
-	.ceo-seobroth .section_img .icons img.four {
-		right: 390px;
-	}
-	.ceo-seobroth .section_img .icons img.five {
-		right: 270px;
-	}
-	.ceo-seobroth .section_img .icons img.six {
-		right: 390px;
-		top: 190px;
-	}
-  .ceo-seobroth .section_img .img_box{
-    margin-left: -30px;
-    width: 70%;
-  }
+
 
 .services-image img {
   padding-top: 40px;
@@ -382,22 +348,7 @@
   .seoprojects-banner-create.slide .content-slide .swiper-container .swiper-wrapper .swiper-slide .swiper-container-vertical img {
     width: 70%;
   }
-	.ceo-seobroth .section_img .img_box .one {
-		left: 0;
-	}
-	.ceo-seobroth .section_img .icons img.three {
-		right: 180px;
-	}
-	.ceo-seobroth .section_img .icons img.four {
-		right: 250px;
-	}
-	.ceo-seobroth .section_img .icons img.five {
-		right: 100px;
-	}
-	.ceo-seobroth .section_img .icons img.six {
-		right: 195px;
-		top: 160px;
-	}
+
   .mighty-bookmakers {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -419,6 +370,14 @@
   }
   .mighty-bookmakers .slick-list {
     padding: 0px 0 !important;
+  }
+  .go-top {
+    width: 35px;
+    height: 45px;
+    line-height: 40px;
+  }
+  .go-top i {
+    font-size: 22px;
   }
 }
 
@@ -476,29 +435,6 @@
     line-height: 80px;
     font-size: 50px;
   }
-	.ceo-seobroth .section_img .img_box {
-		width: 140%;
-	}
-	.ceo-seobroth .section_img .icons img.five {
-		right: 0;
-	}
-	.ceo-seobroth .section_img .icons img.six {
-		right: 55px;
-		top: 200px;
-	}
-	.ceo-seobroth .section_img .icons img.three {
-		right: 0;
-	}
-	.ceo-seobroth .section_img .icons img.two {
-		left: 150px;
-	}
-	.ceo-seobroth .content .section_title h1 {
-		font-size: 32px;
-		line-height: 1.5;
-	}
-  .testimonials .testimonials .swiper-slide {
-    padding: 0px;
-}
 .mighty-bookmakers .slick-center .bk-card {
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -515,6 +451,15 @@
 }
 .subscribe-thumb {
 padding: 60px 20px 20px 20px;
+}
+
+.go-top {
+  width: 35px;
+  height: 45px;
+  line-height: 40px;
+}
+.go-top i {
+  font-size: 22px;
 }
 
 }
@@ -534,8 +479,5 @@ padding: 60px 20px 20px 20px;
   }
   .block-style-two .nav-tabs button {
     font-family: "inter-regular";
-  }
-  .ceo-seobroth .section_img .img_box .min {
-    margin-top: 60px;
   }
 }

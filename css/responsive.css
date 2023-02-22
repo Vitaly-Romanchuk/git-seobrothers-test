@@ -382,6 +382,17 @@
 }
 
 @media (max-width: 767px) {
+  .title-style-one .main-title {
+    font-size: 34px;
+    line-height: 1.25em;
+  }
+  .title-style-one .main-subtitle {
+    font-size: 24px;
+}
+
+.projects-meta .blog-title h4 {
+  font-size: 24px;
+}
 
 
   .mighty-bookmakers .bk-card::before {

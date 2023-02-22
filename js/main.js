@@ -158,24 +158,24 @@
   });
 
   // ------------------------ Навигация скролл: Navigation Scroll
-  $(window).on("scroll", function () {
-    var sticky = $(".sticky-menu"),
-      scroll = $(window).scrollTop();
-    if (scroll >= 100) sticky.addClass("fixed");
-    else sticky.removeClass("fixed");
-  });
+//   $(window).on("scroll", function () {
+//     var sticky = $(".sticky-menu"),
+//       scroll = $(window).scrollTop();
+//     if (scroll >= 100) sticky.addClass("fixed");
+//     else sticky.removeClass("fixed");
+//   });
 
-  if ($('#newsLetterPopup').length) {
-    setTimeout(function() {
-        $('#newsLetterPopup').fadeIn();
-        $('#newsLetterPopup').addClass('showpopup');
-    }, 6000);
+//   if ($('#newsLetterPopup').length) {
+//     setTimeout(function() {
+//         $('#newsLetterPopup').fadeIn();
+//         $('#newsLetterPopup').addClass('showpopup');
+//     }, 6000);
 
-    $('.close-news-letter').click( function(e) {
-        e.preventDefault();
-        $('#newsLetterPopup').removeClass('showpopup');
-    });
-}   
+//     $('.close-news-letter').click( function(e) {
+//         e.preventDefault();
+//         $('#newsLetterPopup').removeClass('showpopup');
+//     });
+// }   
 
   //---------------------- Click event to scroll to top
   $(".scroll-top").on("click", function () {

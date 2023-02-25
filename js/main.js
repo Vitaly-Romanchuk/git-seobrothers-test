@@ -171,6 +171,8 @@
 //         $('#newsLetterPopup').addClass('showpopup');
 //     }, 6000);
 
+
+
 //     $('.close-news-letter').click( function(e) {
 //         e.preventDefault();
 //         $('#newsLetterPopup').removeClass('showpopup');

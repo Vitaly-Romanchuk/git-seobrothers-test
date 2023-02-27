@@ -244,6 +244,22 @@ let SwiperBottom = new Swiper('.develop-slider .swiper-container', {
   }); 
 
 
+
+
+  
+  $('body').on('click', '.cookie_disclaimer .close', function() {
+		$(".cookie_disclaimer").fadeOut(300, function() { $(this).remove(); });
+	});
+
+
+  $(window).on('scroll', function(){
+    var scrolled = $(window).scrollTop();
+    if (scrolled > 2000) $('.cookie_disclaimer').addClass('active');
+    if (scrolled < 2000) $('.cookie_disclaimer').removeClass('active');
+    });
+
+
+
   /*-----------------------------
       workspace
     -----------------------------*/
